@@ -8,11 +8,11 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="100dp"
+        android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_margin="10dp"
         android:onClick="onClickHandler"
-        android:text="Button" />
+        android:text="Show Toast Mesage" />
 
     <LinearLayout
         android:layout_width="wrap_content"
