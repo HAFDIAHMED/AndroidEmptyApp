@@ -44,9 +44,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         listViewNew.setOnItemClickListener(this);*/
         buttonNavigate.setOnClickListener(new View.OnClickListener() {
                                               @Override public void onClick(View view) {
-                                                  Intent intent2= new Intent(MainActivity.this,activityTwo.class);
-                                                  startActivity(intent2);
-                                   }
+                                                  //Intent intent2= new Intent(MainActivity.this,activityTwo.class);
+                                                  //startActivity(intent2);
+                                                Log.i(TAG,"Helloooooo");
+                                              }
                                           }
 
         );
