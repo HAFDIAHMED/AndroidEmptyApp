@@ -16,7 +16,7 @@ import android.widget.Toast;
 import java.sql.Date;
 
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class MainActivity extends AppCompatActivity  {
     String TAG="acitivity one";
     //TextView textviewnew;
     ListView listViewNew ;
@@ -42,10 +42,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         listViewNew.setAdapter(adapter);
         //AdapterButtons= new ArrayAdapter<Button>(this,android.R.layout.si)
         listViewNew.setOnItemClickListener(this);*/
+        
             buttonNavigate.setOnClickListener(new  View.OnClickListener(){
                 @Override
                 public void onClick(View view) {
-                    
+
                 }
             });
 
@@ -94,14 +95,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     }
 
-    @Override
+   /* @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         String itemclick=adapter.getItem(i);
         Toast.makeText(this,"You cliken on item "+itemclick,Toast.LENGTH_LONG).show();
         //navigate to an other activity
         Intent intent = new Intent (MainActivity.this,aciticityOne.class);
         startActivity(intent);
-    }
+    }*/
     /*public void onClickHandler(View view){
         //Date date = new Date(2019,11,12) ;
         textviewnew.setText("this awesome you just  saw the Toast Message");
