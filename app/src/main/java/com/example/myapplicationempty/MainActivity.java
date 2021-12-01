@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     String TAG="acitivity one";
     //TextView textviewnew;
     ListView listViewNew ;
+    ArrayAdapter<String> adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //Phone_text.setText("+212 *");
         Log.i(TAG,"---onCreate--");
         //textviewnew =(TextView) findViewById(R.id.textviewexample);
-        //listViewNew = (ListView) findViewById(R.id.lis)
+        listViewNew = (ListView) findViewById(R.id.listviewitems);
 
     }
 
