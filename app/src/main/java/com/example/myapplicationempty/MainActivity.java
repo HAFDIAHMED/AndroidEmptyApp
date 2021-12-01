@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,7 +14,8 @@ import java.sql.Date;
 
 public class MainActivity extends AppCompatActivity {
     String TAG="acitivity one";
-    TextView textviewnew;
+    //TextView textviewnew;
+    ListView listViewNew ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         //TextView Phone_text= (TextView) findViewById(R.id.Phone);
         //Phone_text.setText("+212 *");
         Log.i(TAG,"---onCreate--");
-        textviewnew =(TextView) findViewById(R.id.textviewexample);
+        //textviewnew =(TextView) findViewById(R.id.textviewexample);
+        //listViewNew = (ListView) findViewById(R.id.lis)
 
     }
 
@@ -66,9 +69,9 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG,"---onDestroy--");
 
     }
-    public void onClickHandler(View view){
+    /*public void onClickHandler(View view){
         //Date date = new Date(2019,11,12) ;
         textviewnew.setText("this awesome you just  saw the Toast Message");
         Toast.makeText(this,"You clicked a Button",Toast.LENGTH_LONG).show();
-    }
+    }*/
 }
