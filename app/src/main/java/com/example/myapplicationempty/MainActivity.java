@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.relative_layout_new);
+        setContentView(R.layout.linear_layout_new);
         //TextView Phone_text= (TextView) findViewById(R.id.Phone);
         //Phone_text.setText("+212 *");
         Log.i(TAG,"---onCreate--");
