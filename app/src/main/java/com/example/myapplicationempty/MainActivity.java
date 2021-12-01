@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         //TextView Phone_text= (TextView) findViewById(R.id.Phone);
         //Phone_text.setText("+212 *");
         Log.i(TAG,"---onCreate--");
+        textviewnew =(TextView) findViewById(R.id.textviewexample);
 
     }
 
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClickHandler(View view){
+        
         Toast.makeText(this,"You clicked a Button",Toast.LENGTH_LONG).show();
     }
 }
