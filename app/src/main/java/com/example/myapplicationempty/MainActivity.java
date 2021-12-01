@@ -42,7 +42,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         listViewNew.setAdapter(adapter);
         //AdapterButtons= new ArrayAdapter<Button>(this,android.R.layout.si)
         listViewNew.setOnItemClickListener(this);*/
-        
+        buttonNavigate.setOnClickListener(new View.OnClickListener() {
+                                              @Override public void onClick(View view) {
+                                                  Intent intent2= new Intent(MainActivity.this,activityTwo.class);
+                                                  startActivity(intent2);
+                                   }
+                                          }
+
+        );
 
 
     }
