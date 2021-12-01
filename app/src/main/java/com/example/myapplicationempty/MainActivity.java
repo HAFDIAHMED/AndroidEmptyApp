@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClickHandler(View view){
-        
+        textviewnew.setText("this awesome you just  saw the Toast Message");
         Toast.makeText(this,"You clicked a Button",Toast.LENGTH_LONG).show();
     }
 }
