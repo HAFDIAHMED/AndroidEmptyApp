@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationEmpty">
         <activity
-            android:name=".aciticityOne"
-            android:label="@string/app_name"
+            android:name=".activityTwo"
             android:exported="false" />
         <activity
+            android:name=".aciticityOne"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
             android:name=".MainActivity"
-            android:label="@string/listViewname"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/listViewname">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
