@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     //TextView textviewnew;
     ListView listViewNew ;
     ArrayAdapter<String> adapter;
-    ArrayAdapter<Button> AdapterButtons;
+    //ArrayAdapter<Button> AdapterButtons;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG,"---onCreate--");
         //textviewnew =(TextView) findViewById(R.id.textviewexample);
         listViewNew = (ListView) findViewById(R.id.listviewitems);
-        /*adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1);
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1);
         adapter.add("hello");
         adapter.add("hello");
         adapter.add("hello");
         adapter.add("hello");
-        listViewNew.setAdapter(adapter);*/
-        AdapterButtons= new ArrayAdapter<Button>(this,android.R.layout.si)
+        listViewNew.setAdapter(adapter);
+        //AdapterButtons= new ArrayAdapter<Button>(this,android.R.layout.si)
 
 
     }
