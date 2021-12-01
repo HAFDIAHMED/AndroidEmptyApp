@@ -2,6 +2,7 @@ package com.example.myapplicationempty;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -88,6 +89,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         String itemclick=adapter.getItem(i);
         Toast.makeText(this,"You cliken on item "+itemclick,Toast.LENGTH_LONG).show();
+        //navigate to an other activity
+        Intent intent = new Intent (MainActivity,this,)
     }
     /*public void onClickHandler(View view){
         //Date date = new Date(2019,11,12) ;
