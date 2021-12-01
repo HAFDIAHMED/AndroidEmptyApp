@@ -22,9 +22,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     ListView listViewNew ;
     ArrayAdapter<String> adapter;
     //ArrayAdapter<Button> AdapterButtons;
-    Button buttonNavigate= (Button) findViewById(R.id.navigate_with_button);
+    //Button buttonNavigate= (Button) findViewById(R.id.navigate_with_button);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Button buttonNavigate= (Button) findViewById(R.id.navigate_with_button);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //TextView Phone_text= (TextView) findViewById(R.id.Phone);
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         listViewNew.setAdapter(adapter);
         //AdapterButtons= new ArrayAdapter<Button>(this,android.R.layout.si)
         listViewNew.setOnItemClickListener(this);*/
+        buttonNavigate.setOnClickListener(new View.);
 
 
     }
