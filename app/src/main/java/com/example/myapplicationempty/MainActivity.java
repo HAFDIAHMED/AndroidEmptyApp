@@ -42,13 +42,8 @@ public class MainActivity extends AppCompatActivity  {
         listViewNew.setAdapter(adapter);
         //AdapterButtons= new ArrayAdapter<Button>(this,android.R.layout.si)
         listViewNew.setOnItemClickListener(this);*/
-        
-            buttonNavigate.setOnClickListener(new  View.OnClickListener(){
-                @Override
-                public void onClick(View view) {
 
-                }
-            });
+
 
 
     }
@@ -108,4 +103,8 @@ public class MainActivity extends AppCompatActivity  {
         textviewnew.setText("this awesome you just  saw the Toast Message");
         Toast.makeText(this,"You clicked a Button",Toast.LENGTH_LONG).show();
     }*/
+    public void GoToAtivity(View view){
+        Intent intentGo= new Intent (MainActivity.this,activityTwo.class);
+        startActivity(intentGo);
+    }
 }

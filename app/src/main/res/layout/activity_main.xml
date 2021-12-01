@@ -43,6 +43,7 @@
         android:text="navigate to another acitivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="GoToAtivity"
         tools:layout_editor_absoluteY="406dp"
         tools:ignore="MissingConstraints"
         android:layout_marginTop="10dp"
