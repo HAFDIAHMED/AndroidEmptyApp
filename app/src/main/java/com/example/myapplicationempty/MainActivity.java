@@ -86,7 +86,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+        String itemclick=adapter.getItem(i);
+        Toast.makeText(this,"You cliken on item "+itemclick,Toast.LENGTH_LONG).show();
     }
     /*public void onClickHandler(View view){
         //Date date = new Date(2019,11,12) ;
