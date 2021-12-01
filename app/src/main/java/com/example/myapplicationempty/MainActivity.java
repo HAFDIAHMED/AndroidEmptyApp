@@ -90,7 +90,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         String itemclick=adapter.getItem(i);
         Toast.makeText(this,"You cliken on item "+itemclick,Toast.LENGTH_LONG).show();
         //navigate to an other activity
-        Intent intent = new Intent (MainActivity,this,)
+        Intent intent = new Intent (MainActivity.this,aciticityOne.class);
+        startActivity(intent);
     }
     /*public void onClickHandler(View view){
         //Date date = new Date(2019,11,12) ;
