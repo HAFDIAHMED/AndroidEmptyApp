@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -14,7 +15,7 @@ import android.widget.Toast;
 import java.sql.Date;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     String TAG="acitivity one";
     //TextView textviewnew;
     ListView listViewNew ;
@@ -80,6 +81,11 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.i(TAG,"---onDestroy--");
 
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        
     }
     /*public void onClickHandler(View view){
         //Date date = new Date(2019,11,12) ;
