@@ -37,7 +37,7 @@
         />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/navigate_with_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="navigate to another acitivity"
