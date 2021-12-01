@@ -21,8 +21,10 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="259dp"
-        android:layout_height="127dp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
         android:text="TextView" />
 
 
