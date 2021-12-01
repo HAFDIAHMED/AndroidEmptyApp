@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_aciticity_one);
         //TextView Phone_text= (TextView) findViewById(R.id.Phone);
         //Phone_text.setText("+212 *");
+        
     }
 }
