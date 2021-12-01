@@ -27,7 +27,12 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG,"---onCreate--");
         //textviewnew =(TextView) findViewById(R.id.textviewexample);
         listViewNew = (ListView) findViewById(R.id.listviewitems);
-       
+        adapter = new ArrayAdapter<String>(this,android.R.Layout);
+        adapter.add("hello");
+        adapter.add("hello");
+        adapter.add("hello");
+        adapter.add("hello");
+        listViewNew.setAdapter(adapter);
 
 
     }
