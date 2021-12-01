@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     ListView listViewNew ;
     ArrayAdapter<String> adapter;
     //ArrayAdapter<Button> AdapterButtons;
+    Button buttonNavigate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
