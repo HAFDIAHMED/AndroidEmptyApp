@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     //TextView textviewnew;
     ListView listViewNew ;
     ArrayAdapter<String> adapter;
+    ArrayAdapter<Button> AdapterButtons;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,12 +29,13 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG,"---onCreate--");
         //textviewnew =(TextView) findViewById(R.id.textviewexample);
         listViewNew = (ListView) findViewById(R.id.listviewitems);
-        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1);
+        /*adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1);
         adapter.add("hello");
         adapter.add("hello");
         adapter.add("hello");
         adapter.add("hello");
-        listViewNew.setAdapter(adapter);
+        listViewNew.setAdapter(adapter);*/
+        AdapterButtons= new ArrayAdapter<Button>(this,android.R.layout.si)
 
 
     }
