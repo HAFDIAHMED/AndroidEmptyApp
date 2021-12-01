@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.sql.Date;
+
 public class MainActivity extends AppCompatActivity {
     String TAG="acitivity one";
     TextView textviewnew;
@@ -64,8 +66,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClickHandler(View view){
-        Date date = 
-        textviewnew.setText("this awesome you just  saw the Toast Message");
+        Date date = new Date();
+        textviewnew.setText("this awesome you just  saw the Toast Message"+ date.toString());
         Toast.makeText(this,"You clicked a Button",Toast.LENGTH_LONG).show();
     }
 }
