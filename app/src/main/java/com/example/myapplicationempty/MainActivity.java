@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_view_new);
+        setContentView(R.layout.linear_layout_new);
         //TextView Phone_text= (TextView) findViewById(R.id.Phone);
         //Phone_text.setText("+212 *");
         Log.i(TAG,"---onCreate--");
