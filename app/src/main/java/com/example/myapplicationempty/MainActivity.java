@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     String TAG="acitivity one";
@@ -59,5 +61,8 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.i(TAG,"---onDestroy--");
 
+    }
+    public void onClickHandler(View view){
+        Toast.makeText(this,"You clicked a ")
     }
 }
