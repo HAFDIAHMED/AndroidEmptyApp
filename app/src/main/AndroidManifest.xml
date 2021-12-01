@@ -11,9 +11,11 @@
         android:theme="@style/Theme.MyApplicationEmpty">
         <activity
             android:name=".aciticityOne"
+            android:label="@string/app_name"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:label="@string/listViewname"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
