@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClickHandler(View view){
-        Date date = new Date(2019,11,12) ;
-        textviewnew.setText("this awesome you just  saw the Toast Message"+ date.toString());
+        //Date date = new Date(2019,11,12) ;
+        textviewnew.setText("this awesome you just  saw the Toast Message");
         Toast.makeText(this,"You clicked a Button",Toast.LENGTH_LONG).show();
     }
 }
