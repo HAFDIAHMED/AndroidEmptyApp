@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         adapter.add("hello");
         listViewNew.setAdapter(adapter);
         //AdapterButtons= new ArrayAdapter<Button>(this,android.R.layout.si)
+        listViewNew.setOnItemClickListener(this);
 
 
     }
@@ -85,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        
+
     }
     /*public void onClickHandler(View view){
         //Date date = new Date(2019,11,12) ;
