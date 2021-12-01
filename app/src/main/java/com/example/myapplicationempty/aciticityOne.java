@@ -9,6 +9,6 @@ public class aciticityOne extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.relative_layout_new);
+        setContentView(R.layout.activity_aciticity_one);
     }
 }
