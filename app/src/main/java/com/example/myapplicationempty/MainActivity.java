@@ -63,6 +63,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClickHandler(View view){
-        Toast.makeText(this,"You clicked a ")
+        Toast.makeText(this,"You clicked a Button",Toast.LENGTH_LONG).show();
     }
 }
